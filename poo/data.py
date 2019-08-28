@@ -1,7 +1,5 @@
-class Data:
-    """"
-        Classe
-    """
+class Data():
+    """" Classe para representar uma data, com dia, mês e ano. """
     def __init__(self, dia, mes, ano):
         self.__dia = dia
         self.__mes = mes
